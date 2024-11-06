@@ -6,12 +6,13 @@ body {
 }
 
 h2 {
-    color: white;
-    font-weight: normal;
-    padding-right: 5em;
-    padding-left: 5em;
+    font-family: unset ;
+    font-weight: lighter;
+    padding-right: 2em;
+    padding-left: 2em;
     line-height: 1.4em;
     text-align: center;
+    font-size: 2em;
 }
 
 p {
@@ -21,6 +22,7 @@ p {
     padding-left: 5em;
     line-height: 1.4em;
     text-align: center;
+    padding-bottom: 2em;
 }
 
 header {
@@ -34,6 +36,12 @@ main {
 
 main img {
     width: 100%;
+}
+
+.navigatie {
+    height: 100px;
+    background-color: #003333;
+    margin-top: -1em;
 }
 
 footer, .push {
@@ -71,6 +79,10 @@ a {
     padding-right: 4em;
     padding-bottom: 2em;
     padding-top: 1em;
+}
 
+.donker {
+    background-color: #003333;
+    padding-top: 0.1em;
 }
 
