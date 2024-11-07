@@ -5,8 +5,18 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: unset;
+    font-weight: lighter;
+    padding-right: 2em;
+    padding-left: 2em;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 2.5em;
+}
+
 h2 {
-    font-family: unset ;
+    font-family: unset;
     font-weight: lighter;
     padding-right: 2em;
     padding-left: 2em;
@@ -23,6 +33,7 @@ p {
     line-height: 1.4em;
     text-align: center;
     padding-bottom: 2em;
+    padding-top: 1em;
 }
 
 header {
@@ -47,6 +58,12 @@ main img {
 footer, .push {
     height: 100px;
     background-color: #003333;
+}
+
+footer img {
+    width: 10em;
+    padding-left: 5em;
+    padding-top: 1.4em;
 }
 
 ul {
@@ -75,14 +92,14 @@ a {
 }
 
 .pijl {
-    width: 2em;
+    width: 7.8em;
     padding-right: 4em;
-    padding-bottom: 2em;
-    padding-top: 1em;
+    margin-top: -3em;
 }
 
 .donker {
     background-color: #003333;
     padding-top: 0.1em;
 }
+
 
